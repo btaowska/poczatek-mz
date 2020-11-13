@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int a = 2, b = 2, c = 2, d = 2, e =2;
+
+int main ()
+{
+
+a=a+2;
+b=b-2;
+c=c*2;
+d=d/2; 
+e=e%2;
+
+printf("Wynik dodawania = %d/n",a);
+printf("Wynik odejmowania = %d/n", b);
+printf("Wynik mnożenia = %d/n",c);
+printf ("Wynik dzielenia = %d/n", d);
+printf ("Wynik reszty z dzielenia= %d/n, e);
+return 0;
+
